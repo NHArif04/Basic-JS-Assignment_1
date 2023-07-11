@@ -1,0 +1,73 @@
+variable.js
+
+```
+let age = 20;
+let name = 'Nahid';
+let isStudent = true;
+let birthYear = 2003;
+console.log(`My name is ${name} and I am ${age} years old.\nI am a student: ${isStudent}.\nI was born in ${birthYear}.\n`);
+```
+
+
+
+dataTypes.js
+```
+let name = 'Nahid';
+let age = 20;
+let isStudent = true;
+let hobbies = ['reading', 'painting', 'hiking'];
+let address = {
+    street: 'Gangachhara Road',
+    city: 'Rangpur',
+    country: 'Bangladesh'
+};
+
+console.log(`My name is ${name}.\nI am ${age} years old.\nI am a student: ${isStudent}.\nMy hobbies are ${hobbies}.\nI live at ${address.street}, ${address.city}, ${address.country}.\n`);
+```
+
+operators.js
+```
+let num1 = 10;
+let num2 = 5;
+let sum = num1 + num2;
+let difference = num1 - num2;
+let product = num1 * num2;
+let quotient = num1 / num2;
+let remainder = num1 % num2;
+
+console.log(`The sum is ${sum}.\nThe difference is ${difference}.\nThe product is ${product}.\nThe quotient is ${quotient}.\nThe remainder is ${remainder}.\n`);
+
+```
+
+
+ifElse.js
+```
+let temperature = 25;
+
+if (temperature >= 30) {
+    console.log("It's a hot day!\n");
+} else {
+    console.log("It's a normal day!\n");
+}
+
+let isRaining = true;
+
+if (isRaining) {
+    console.log("Don't forget your umbrella!\n");
+} else {
+    console.log("Enjoy your day!\n");
+}
+
+let time = 14;
+
+if (time >= 6 && time <= 12) {
+    console.log("Good morning!\n");
+} else if (time > 12 && time <= 18) {
+    console.log("Good afternoon!\n");
+} else if (time > 18 && time <= 24) {
+    console.log("Good evening!\n");
+} else {
+    console.log("Good night!\n");
+}
+
+```
